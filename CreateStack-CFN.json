@@ -1,7 +1,7 @@
 {
   "AWSTemplateFormatVersion" : "2010-09-09",
 
-  "Description" : "CloudFormation template for Amazon S3",
+  "Description" : "CloudFormation template for Amazon S3 New",
 
   "Resources" : {
     "S3BucketPOC":{
