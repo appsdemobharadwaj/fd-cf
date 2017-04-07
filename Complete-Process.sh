@@ -1,9 +1,13 @@
 #!/bin/sh
 aws cloudformation create-stack --stack-name CreateStack-CFN --template-body file:///home/ec2-user/fd-cf/fd-cf/CreateStack-CFN.json
 
-/bin/sleep 10
+for i in {1..30}
+do
+ /bin/sleep 1
+ echo $i
+done
 
-aws cloudformation list-stack-resources --stack-name CreateStack-CFN >> ResourceDetailInStack.json
+aws cloudformation describe-stacks --stack-name CreateStack-CFN list-exports >> ResourceDetailInStack.json
 
 git add .
 
