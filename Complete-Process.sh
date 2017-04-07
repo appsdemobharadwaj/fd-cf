@@ -3,7 +3,7 @@ aws cloudformation create-stack --stack-name CreateStack-CFN --template-body fil
 
 /bin/sleep 10
 
-aws cloudformation list-stack-resources --stack-name CreateStack-CFN list-exports >> ResourceDetailInStack.json
+aws cloudformation list-stack-resources --stack-name CreateStack-CFN >> ResourceDetailInStack.json
 
 git add .
 

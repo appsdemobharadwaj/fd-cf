@@ -1,0 +1,12 @@
+{
+    "StackResourceSummaries": [
+        {
+            "ResourceStatus": "CREATE_IN_PROGRESS", 
+            "ResourceType": "AWS::S3::Bucket", 
+            "ResourceStatusReason": "Resource creation Initiated", 
+            "LastUpdatedTimestamp": "2017-04-07T06:59:32.983Z", 
+            "PhysicalResourceId": "createstack-cfn-s3bucketpoc-1hihf2vat9cnk", 
+            "LogicalResourceId": "S3BucketPOC"
+        }
+    ]
+}
