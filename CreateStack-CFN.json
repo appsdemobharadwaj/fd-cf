@@ -1,0 +1,30 @@
+{
+  "AWSTemplateFormatVersion" : "2010-09-09",
+
+  "Description" : "CloudFormation template for Amazon S3",
+
+  "Resources" : {
+    "S3BucketPOC":{
+	"Type":"AWS::S3::Bucket",
+	"Properties":{
+	 "AccessControl" : "PublicRead"
+	}
+	}
+  },
+
+  "Outputs" : {
+     "BucketName" : {
+      "Value" : { "Ref" : "S3BucketPOC" },
+      "Description" : "BucketName of S3",
+	  "Export":{
+			"Name":"FIDARN"
+		}
+   },
+   "S3ARN":{
+      "Value" : { "Fn::Join" : [
+         "", [ "arn:aws:s3:::", { "Ref" : "S3BucketPOC" } ]
+      ] },
+      "Description" : "ARN of S3 bucket"
+      }
+  }
+}
