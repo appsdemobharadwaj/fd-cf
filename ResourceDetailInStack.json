@@ -1,86 +1,22 @@
 {
-    "StackResourceSummaries": [
-        {
-            "ResourceStatus": "CREATE_IN_PROGRESS", 
-            "ResourceType": "AWS::S3::Bucket", 
-            "ResourceStatusReason": "Resource creation Initiated", 
-            "LastUpdatedTimestamp": "2017-04-07T06:59:32.983Z", 
-            "PhysicalResourceId": "createstack-cfn-s3bucketpoc-1hihf2vat9cnk", 
-            "LogicalResourceId": "S3BucketPOC"
-        }
-    ]
-}
-{
     "Stacks": [
         {
-            "StackId": "arn:aws:cloudformation:us-east-2:214138627090:stack/CreateStack-CFN/476860d0-1b61-11e7-9930-50faf8bfacd1", 
+            "StackId": "arn:aws:cloudformation:us-east-2:214138627090:stack/CreateStack-CFN/08714e70-1dbc-11e7-893c-50faf8c48cd2", 
             "Description": "CloudFormation template for Amazon S3 New", 
             "Tags": [], 
             "Outputs": [
                 {
                     "Description": "BucketName of S3", 
                     "OutputKey": "BucketName", 
-                    "OutputValue": "createstack-cfn-s3bucketpoc-4puso8hxuqpg"
+                    "OutputValue": "createstack-cfn-s3bucketpoc-10k3fsco6syvk"
                 }, 
                 {
                     "Description": "ARN of S3 bucket", 
                     "OutputKey": "S3ARN", 
-                    "OutputValue": "arn:aws:s3:::createstack-cfn-s3bucketpoc-4puso8hxuqpg"
+                    "OutputValue": "arn:aws:s3:::createstack-cfn-s3bucketpoc-10k3fsco6syvk"
                 }
             ], 
-            "CreationTime": "2017-04-07T07:10:28.196Z", 
-            "StackName": "CreateStack-CFN", 
-            "NotificationARNs": [], 
-            "StackStatus": "CREATE_COMPLETE", 
-            "DisableRollback": false
-        }
-    ]
-}
-{
-    "Stacks": [
-        {
-            "StackId": "arn:aws:cloudformation:us-east-2:214138627090:stack/CreateStack-CFN/de5ffde0-1b61-11e7-b865-503f3144f9c5", 
-            "Description": "CloudFormation template for Amazon S3 New", 
-            "Tags": [], 
-            "Outputs": [
-                {
-                    "Description": "BucketName of S3", 
-                    "OutputKey": "BucketName", 
-                    "OutputValue": "createstack-cfn-s3bucketpoc-1xowfpw71e2v1"
-                }, 
-                {
-                    "Description": "ARN of S3 bucket", 
-                    "OutputKey": "S3ARN", 
-                    "OutputValue": "arn:aws:s3:::createstack-cfn-s3bucketpoc-1xowfpw71e2v1"
-                }
-            ], 
-            "CreationTime": "2017-04-07T07:14:41.477Z", 
-            "StackName": "CreateStack-CFN", 
-            "NotificationARNs": [], 
-            "StackStatus": "CREATE_COMPLETE", 
-            "DisableRollback": false
-        }
-    ]
-}
-{
-    "Stacks": [
-        {
-            "StackId": "arn:aws:cloudformation:us-east-2:214138627090:stack/CreateStack-CFN/29af78f0-1b87-11e7-a46c-50a68a2708d2", 
-            "Description": "CloudFormation template for Amazon S3 New", 
-            "Tags": [], 
-            "Outputs": [
-                {
-                    "Description": "BucketName of S3", 
-                    "OutputKey": "BucketName", 
-                    "OutputValue": "createstack-cfn-s3bucketpoc-uc6tns26pn7o"
-                }, 
-                {
-                    "Description": "ARN of S3 bucket", 
-                    "OutputKey": "S3ARN", 
-                    "OutputValue": "arn:aws:s3:::createstack-cfn-s3bucketpoc-uc6tns26pn7o"
-                }
-            ], 
-            "CreationTime": "2017-04-07T11:41:39.207Z", 
+            "CreationTime": "2017-04-10T07:05:09.087Z", 
             "StackName": "CreateStack-CFN", 
             "NotificationARNs": [], 
             "StackStatus": "CREATE_COMPLETE", 

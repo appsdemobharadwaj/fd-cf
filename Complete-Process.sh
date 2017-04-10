@@ -9,7 +9,7 @@ do
  echo -ne "."
 done
 
-aws cloudformation describe-stacks --stack-name CreateStack-CFN >> ResourceDetailInStack.json
+aws cloudformation describe-stacks --stack-name CreateStack-CFN > ResourceDetailInStack.json
 
 git add .
 
