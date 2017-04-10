@@ -1,5 +1,5 @@
 #!/bin/sh
-aws cloudformation create-stack --stack-name CreateStack-CFN --template-body file:///home/ec2-user/fd-cf/fd-cf/CreateStack-CFN.json
+aws cloudformation create-stack --stack-name CreateStack-CFN1 --template-body file:///home/ec2-user/fd-cf/fd-cf/CreateStack-CFN.json
 
 echo "Please wait Stack Creation In Progress ... "
 
@@ -9,7 +9,7 @@ do
  echo -ne "."
 done
 
-aws cloudformation describe-stacks --stack-name CreateStack-CFN > ResourceDetailInStack.json
+aws cloudformation describe-stacks --stack-name CreateStack-CFN1 > ResourceDetailInStack.json
 
 git add .
 
